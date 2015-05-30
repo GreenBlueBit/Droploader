@@ -46,3 +46,7 @@ These are the following options :
     postHover - A function which runs when the mouse is over the element with files.
     beforeDrop - Before everything that the plugin handles when you drop the files.
     postDrop - After you do the preview of the file and everything else on dropping the files.
+
+
+![alt tag](http://imageshack.com/a/img673/9150/vqE5qu.png)
+![alt tag](http://imageshack.com/a/img908/9882/volYb5.png)
