@@ -48,5 +48,7 @@ These are the following options :
     postDrop - After you do the preview of the file and everything else on dropping the files.
 
 
+The following images show the example that I made for this repo.
+
 ![alt tag](http://imageshack.com/a/img673/9150/vqE5qu.png)
 ![alt tag](http://imageshack.com/a/img908/9882/volYb5.png)
