@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>INCREMENTAL EXAMPLE //by Ted</title>
+        <style>
+              @font-face {
+              font-family: 'BebasNeueRegular';
+              src: url("BebasNeue Regular.otf") format("opentype");
+              font-weight: normal;
+              font-style: normal;
+              font-size: 16pt; }
+            .drop_here img {
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                user-select: none;
+                padding: 10px;
+                width: 60px;
+                pointer-events: none;   
+            }
+            .drop_msg {
+                font-family: 'BebasNeueRegular' !important;
+                height: 385px;
+                font-size: 115;
+                text-align: center;
+                margin-top: 65px;
+                color: #E7F1FA;   
+            }
+            .drop_here {
+                  overflow: auto;
+                  cursor: pointer;
+                  display: -webkit-inline-box;
+                  width: 300px;
+                  margin-top: 122px;
+                  height: 550px;
+                  background-color: #A5CF77;
+                  -moz-user-select: none;
+                  -webkit-user-select: none;
+                  user-select: none; 
+                  border: 3px #6dbf14 solid;
+                  margin-left: auto;
+                  margin-right: auto;
+                  position: relative;
+                  display: block;
+            }
+            .holder {
+                position:relative;
+                width:100%;
+                height:100%;
+                display:block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="holder">
+            <div class="drop_here">
+                <div class="drop_msg">
+                    DROP FILES HERE
+                </div>
+            </div>
+        </div>
+        
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+        <script src="droploader.js"></script>
+        <script src="draggable.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
